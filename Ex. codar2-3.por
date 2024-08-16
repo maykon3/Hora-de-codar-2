@@ -15,7 +15,7 @@ programa {
     escreva("digite o valor do terceiro numero: ")
     leia(c)
 
-    se(a == b == c){
+    se(a == c ou a == b ou b == c ){
     escreva("Os valores devem ser diferentes !")
     }senao se( a > b e a > c ){
     escreva ("O numero : ", a ,"\n e o maior dos valores !")
