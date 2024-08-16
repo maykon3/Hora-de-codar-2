@@ -1,4 +1,4 @@
-// Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+// FaÃ§a um programa para ler 3 valores (considere que nÃ£o serÃ£o informados valores iguais) e escrever o maior deles.
 
 programa {
   funcao inicio() {
@@ -15,17 +15,15 @@ programa {
     escreva("digite o valor do terceiro numero: ")
     leia(c)
 
-    se(a == b == c)
+    se(a == b == c){
     escreva("Os valores devem ser diferentes !")
-    senao se( a > b e a > c )
+    }senao se( a > b e a > c ){
     escreva ("O numero : ", a ,"\n e o maior dos valores !")
-    senao se( b > a e b > c )
+    }senao se( b > a e b > c ){
     escreva ("O numero : ", b ,"\n e o maior dos valores !")
-    senao se( c > b e c > a )
+    }senao se( c > b e c > a ){
     escreva ("O numero : ", c ,"\n e o maior dos valores !")
-
-    
-    
+    }
     
   }
 }
