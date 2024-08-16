@@ -1,1 +1,1 @@
-# Hora-de-codar-2
+# Hora-de-codar-Portugol-2
