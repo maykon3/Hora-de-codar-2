@@ -1,11 +1,11 @@
 //Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa,
-// construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:
+// construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fÃ³rmulas:
 
 programa {
   funcao inicio() {
 
     real altura
-    cadeia sexo, masculino, feminino
+    cadeia sexo
     real peso
      
     escreva("\n Digite qual a sua altura: ")
