@@ -4,9 +4,9 @@
 programa {
   funcao inicio() {
 
-    real altura
+    real altura, peso
     inteiro genero
-    real peso
+    
      
     escreva("\n Digite qual a sua altura: ")
     leia(altura)
