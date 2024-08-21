@@ -5,20 +5,20 @@ programa {
   funcao inicio() {
 
     real altura
-    cadeia sexo
+    inteiro genero
     real peso
      
     escreva("\n Digite qual a sua altura: ")
     leia(altura)
-    escreva("Qual seu sexo?\n 1: feminino 2: masculino:  ")
-    leia(sexo)
+    escreva("Qual seu gênero?\n 1: feminino 2: masculino:  ")
+    leia(genero)
 
-      se( sexo == "1"){
+      se( genero == "1" ){
         peso = (62.1 * altura) - 44.7
-      }senao se(sexo == "2"){
+      }senao se( genero == "2" ){
         peso = (72.7 * altura) - 58
       }
-      escreva("\n O peso ideal para voce e: ", peso)  
+      escreva("\n O peso ideal para voce e: ", peso , "kg")  
     
   }
 }
