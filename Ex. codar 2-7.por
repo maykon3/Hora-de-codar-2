@@ -1,6 +1,6 @@
-//Faça um programa que leia 6 números que o usuário vai informar. 
-//Todos os números lidos com valor inferior a 72 devem ser somados. 
-//Escreva o valor final da soma efetuada e também todos valores que o usuário informou.
+//FaÃ§a um programa que leia 6 nÃºmeros que o usuÃ¡rio vai informar. 
+//Todos os nÃºmeros lidos com valor inferior a 72 devem ser somados. 
+//Escreva o valor final da soma efetuada e tambÃ©m todos valores que o usuÃ¡rio informou.
 
 
 programa {
@@ -43,8 +43,6 @@ se(y<72){
 se(f<72){
   soma = soma + f
 }
-
-
 escreva("\n a soma dos valores inferiores a 72 e: ", soma)
 
 
